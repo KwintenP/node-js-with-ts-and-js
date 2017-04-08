@@ -1,0 +1,31 @@
+{
+  "name": "node-js-with-ts-and-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/test.ts",
+    "compile": "gulp copy-js && tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KwintenP/node-js-with-ts-and-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KwintenP/node-js-with-ts-and-js/issues"
+  },
+  "homepage": "https://github.com/KwintenP/node-js-with-ts-and-js#readme",
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.12",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2"
+  }
+}
