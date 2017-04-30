@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@types/node@^7.0.12":
+"@types/node@7.0.12":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
 
@@ -198,6 +198,10 @@ co@^4.6.0:
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+
+combine-reducers-enhanced@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/combine-reducers-enhanced/-/combine-reducers-enhanced-0.0.4.tgz#12b9a73796cd1335fd5e4f17ca17d901d18ba930"
 
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
@@ -656,7 +660,7 @@ gulp-util@^3.0.0:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp@^3.9.1:
+gulp@3.9.1:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   dependencies:
@@ -766,8 +770,8 @@ ini@^1.3.4, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
 interpret@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.2.tgz#f4f623f0bb7122f15f5717c8e254b8161b5c5b2d"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.3.tgz#cbc35c62eeee73f19ab7b10a801511401afc0f90"
 
 is-absolute@^0.2.3:
   version "0.2.6"
@@ -1221,7 +1225,7 @@ node-pre-gyp@^0.6.29:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-nodemon@^1.11.0:
+nodemon@1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.11.0.tgz#226c562bd2a7b13d3d7518b49ad4828a3623d06c"
   dependencies:
@@ -1560,8 +1564,8 @@ resolve-dir@^0.1.0:
     global-modules "^0.2.3"
 
 resolve@^1.1.6, resolve@^1.1.7:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.2.tgz#1f0442c9e0cbb8136e87b9305f932f46c7f28235"
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.3.tgz#655907c3469a8680dc2de3a275a8fdd69691f0e5"
   dependencies:
     path-parse "^1.0.5"
 
@@ -1786,7 +1790,7 @@ tough-cookie@~2.3.0:
   dependencies:
     punycode "^1.4.1"
 
-ts-node@^3.0.2:
+ts-node@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.0.2.tgz#cfc9516c831b920d7efbe16005915062b1294f8c"
   dependencies:
@@ -1818,9 +1822,9 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-typescript@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.2.tgz#606022508479b55ffa368b58fee963a03dfd7b0c"
+typescript@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
 
 uid-number@^0.0.6:
   version "0.0.6"

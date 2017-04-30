@@ -21,11 +21,12 @@
   },
   "homepage": "https://github.com/KwintenP/node-js-with-ts-and-js#readme",
   "devDependencies": {
-    "typescript": "^2.2.2"
+    "typescript": "2.3.0"
   },
   "dependencies": {
     "@types/node": "7.0.12",
     "combine-reducers-enhanced": "0.0.4",
+    "gulp": "3.9.1",
     "nodemon": "1.11.0",
     "ts-node": "3.0.2"
   }
