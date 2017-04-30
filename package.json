@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:live",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/test.ts",
-    "compile:transpile": "tsc -p tsconfig.json --allowJs",
+    "compile:transpile": "tsc -p tsconfig.json --allowJs --checkJs",
     "compile:copy": "gulp copy-js && tsc -p tsconfig.json"
   },
   "repository": {
